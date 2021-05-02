@@ -5,7 +5,8 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "node dist/app.js",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "tsc"
   },
   "repository": {
     "type": "git",
