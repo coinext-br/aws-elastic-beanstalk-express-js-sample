@@ -1,4 +1,6 @@
 export function configure(app) {
-    app.get('/', (req, res) => res.send('Hello AWS!!1!'));
+    app.get('/', (req, res) => {
+        console.log('Request /');
+        res.send('Hello AWS! With jobs!');
+    });
 }
-
