@@ -1,8 +1,10 @@
-const express = require('express');
+import * as express from 'express';
+import { configure } from './routes';
+
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello AWS!'));
+configure(app);
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
