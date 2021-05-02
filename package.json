@@ -2,7 +2,7 @@
   "name": "aws-elastic-beanstalk-express-js-sample",
   "version": "1.0.0",
   "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
-  "main": "src/app.js",
+  "main": "dist/app.js",
   "scripts": {
     "start": "node dist/app.js",
     "test": "jest"
