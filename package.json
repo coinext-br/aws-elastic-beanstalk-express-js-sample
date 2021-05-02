@@ -5,6 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "node dist/app.js",
+    "jobs": "node dist/jobs.js",
     "test": "jest",
     "postinstall": "tsc"
   },
